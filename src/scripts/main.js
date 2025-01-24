@@ -26,3 +26,9 @@ const contaAsHoras = setInterval(function() {
         document.getElementById('contador').innerHTML = 'Evento expirado';
     }
 }, 1000);
+
+
+const botao =document.querySelector(`.button`);
+botao.addEventListener(`click`,function(){
+    alert(`Evento confirmado!`);
+})

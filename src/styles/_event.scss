@@ -3,19 +3,19 @@
 .event {
     padding: 80px 0;
     
-    &--frontend {
+    &--ambiente {
         background-image: linear-gradient(variables.$cinza2, variables.$green1);
     }
 
-    &--ui-ux {
+    &--confeitaria {
         background-image: linear-gradient(variables.$green1, variables.$blue);
     }
 
-    &--data-science {
+    &--rooftop {
         background-image: linear-gradient(variables.$blue, variables.$green2);
     }
 
-    &--backend {
+    &--comes {
         background-image: linear-gradient(variables.$green2, variables.$green1);
     }
 
